@@ -1,4 +1,4 @@
-## ¿¿¿¿rustup¿¿rust¿
+## è®¾ç½®é¾™èŠ¯rustæºå’Œrustupæº
 curl --proto '=https' --tlsv1.2 -sSf https://rust-lang.loongnix.cn/rustup-init.sh
 [root@kubernetes-master-1 thrift]# cat ~/.cargo/config
 
@@ -10,9 +10,9 @@ registry = "https://crates.loongnix.cn/crates.io-index"
 
 rm lib/rs/Cargo.lock
 
-## ¿¿
-## boost¿¿¿/usr/include/boost ¿¿¿
+## ç¼–è¯‘
+## boost å®‰è£…åœ¨/usr/include/boost è·¯å¾„ä¸‹
 yum install -y boost-devel  libtool gcc gcc-c++ make openssl-libs openssl-devel rustfmt clippy rust-toolset flex
-./bootstrap.sh  ##¿¿configure
-./configure  --with-swift=no  --prefix=/usr/local/zxj  ## --prefix ¿¿¿¿¿¿¿--enable-tests=no ¿¿¿¿
+./bootstrap.sh  ##ç”Ÿæˆconfigureæ–‡ä»¶
+./configure  --with-swift=no  --prefix=/usr/local/zxj  ## --prefixï¼šè®¾ç½®å®‰è£…è·¯å¾„ï¼Œ --enable-tests=noï¼šä¸ä½¿èƒ½æµ‹è¯•
 make
